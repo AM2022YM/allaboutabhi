@@ -1,0 +1,50 @@
+extends base.pug
+block style 
+            style
+                include ../static/styles.css
+                include ../static/music.css
+block content
+    .section
+        h1 Fav Song Playlist 
+        .box 
+            .song
+                p 1. Gajab ka hai ye din
+                audio(controls)
+                    source(src="../static/so1.mp3")
+            .song
+                p 2. Ha hasi ban gaye
+                audio(controls)
+                    source(src="../static/so2.mp3")
+            .song
+                p 3. Nashe si chadh gayi
+                audio(controls)
+                    source(src="../static/so3.mp3")
+            .song
+                p 4. Wajah tum ho
+                audio(controls)
+                    source(src="../static/so4.mp3")
+            .song
+                p 5. Befikra bhi
+                audio(controls)
+                    source(src="../static/so5.mp3")
+            .song
+                p 6. Ai dil hai mushkil
+                audio(controls)
+                    source(src="../static/so6.mp3")
+            .song
+                p  7. Chal Waha jate hai
+                audio(controls)
+                    source(src="../static/so7.mp3")
+            .song
+                p 8. Sun sathiya
+                audio(controls)
+                    source(src="../static/so8.mp3")
+            .song
+                p 9. Har kisi ko
+                audio(controls)
+                    source(src="../static/so9.mp3")
+            .song
+                p 10. Ishq wala love
+                audio(controls)
+                    source(src="../static/so10.mp3")
+        

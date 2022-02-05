@@ -1,0 +1,31 @@
+.section{
+    background: repeating-radial-gradient(white,black);
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 6px 6px 6px black;
+    color: white;
+    font-family: cursive;
+    padding-top: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120vh;
+}
+.song{
+    text-align: center;
+}
+audio{
+    width: 50%;
+    height: 30px;
+}
+p{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

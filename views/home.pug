@@ -1,0 +1,33 @@
+extends base.pug
+block style 
+            style
+                include ../static/styles.css
+                include ../static/home.css
+block content
+    .section1 
+        .container1
+            h1 WelCome To Abhi's Site 
+            p Here this website shows you about myself. You can see my images, bio, education, favrite songs etc. The purpose of this web is to show myself toword the entire world . This web is only built for just my practice .This is my first web devlopment mini project ,Hope you like it.
+        .container2 
+            .box1 
+                p To see images click on below link 
+                    br
+                    a(href="/images") Click Here 
+            .box2 
+                p To education detail click on below link 
+                    br
+                    a(href="/education") Click Here 
+            .box1 
+                p To listen music click on below link 
+                    br
+                    a(href="/music") Click Here 
+            .box2 
+                p To know more about click on below link 
+                    br
+                    a(href="/about") Click Here
+        .container3 
+            h2 Feedback 
+            form(action="/home" method="post" class="myform") 
+                input(type="text" placeholder="Enter your name" name="name" class="inp")
+                textarea(name="feed", cols="20", rows="3" placeholder="Give your feedback" class="inp")
+                button(class="btn") Submit

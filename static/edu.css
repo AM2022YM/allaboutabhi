@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.section1{
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.5) url('../static/lapt4.jpg') center/cover;
+    background-blend-mode: darken;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 2px 5px red;
+    padding: 20px;
+    color: white;
+    font-family: cursive;
+    font-size: 3rem;
+}
+table{
+    opacity: 0.8;
+    height: 60vh;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 4px;
+}
+th{
+    border: 1px solid white;
+    text-shadow: 1px 2px 5px red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+td{
+    font-weight: bold;
+    border: 1px solid white;
+    text-align: center;
+    font-family: cursive;
+}
+tr{
+    color:white;
+}
