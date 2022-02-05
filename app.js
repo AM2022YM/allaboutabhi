@@ -2,7 +2,7 @@ const express = require('express');
 const path=require('path');
 const app=express();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/feedback');
+mongoose.connect('mongodb://localhost:27017/feedback');
 const port=process.env.PORT || 8000;
 const bodyparser=require("body-parser");
 const feedbk= new mongoose.Schema({
